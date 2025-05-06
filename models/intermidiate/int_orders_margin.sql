@@ -1,11 +1,12 @@
-select sales.orders_id
-,      sales.date_date
-,      sum(sales.revenue) as total_revenue
-,      sum(sales.quantity) as total_quantity
-,      sum(sales.quantity * pro.purchase_price) as total_purchase_cost
-,      sum(sales.revenue - sales.quantity * pro.purchase_price) as total_margin
-from {{ ref("stg_raw__sales") }} as sales
-join {{ ref("stg_raw__product") }} as pro
-using(products_id)
-group by sales.orders_id
-,      sales.date_date
+select orders_id
+,      date_date
+,      sum(revenue) as total_revenue
+,      sum(quantity) as total_quantity
+,      total_purchase_cost
+,      total_margin
+from {{ ref("int_sales_margin") }} 
+group by orders_id
+,      date_date
+,      total_purchase_cost
+,      total_margin
+
