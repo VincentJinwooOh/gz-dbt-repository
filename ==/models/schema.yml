@@ -95,25 +95,36 @@ models:
   - name: stg_raw_adwords
     columns:
       - name: date_date
+        description: primary
         tests:
           - unique
           - not_null
   - name: stg_raw_bing
     columns:
       - name: date_date
+        description: primary
         tests:
           - unique
           - not_null
   - name: stg_raw_criteo
     columns:
       - name: date_date
+        description: primary
         tests:
           - unique
           - not_null
   - name: stg_raw_facebook
     columns:
       - name: date_date
+        description: primary
         tests:
           - unique
           - not_null
-          
+  
+  - name: finance_campaigns_days
+    columns:
+      - name: date_date
+        description: primary
+        tests:
+          - unique
+          - not_null
