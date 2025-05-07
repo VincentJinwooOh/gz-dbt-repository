@@ -48,16 +48,6 @@ sources:
           - name: ads_cost
           - name: impression
           - name: click
-      - name: 
-        identifier: 
-        columns: 
-          - name: date_date
-          - name: paid_source
-          - name: campaign_key
-          - name: camPGN_name  
-          - name: ads_cost
-          - name: impression
-          - name: click
       - name: criteo
         identifier: raw_gz_criteo
         columns: 
