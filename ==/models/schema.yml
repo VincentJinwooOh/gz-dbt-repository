@@ -92,3 +92,28 @@ models:
         tests:
           - unique
           - not_null
+  - name: stg_raw_adwords
+    columns:
+      - name: date_date
+        tests:
+          - unique
+          - not_null
+  - name: stg_raw_bing
+    columns:
+      - name: date_date
+        tests:
+          - unique
+          - not_null
+  - name: stg_raw_criteo
+    columns:
+      - name: date_date
+        tests:
+          - unique
+          - not_null
+  - name: stg_raw_facebook
+    columns:
+      - name: date_date
+        tests:
+          - unique
+          - not_null
+          
