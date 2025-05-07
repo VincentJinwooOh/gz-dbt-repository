@@ -121,6 +121,13 @@ models:
           - unique
           - not_null
   
+  - name: int_campaigns_days
+    columns:
+      - name: date_date
+        description: primary
+        tests:
+          - unique
+          - not_null
   - name: finance_campaigns_days
     columns:
       - name: date_date

@@ -13,6 +13,6 @@ select date_date
 ,      logcost
 ,      ship_cost
 from {{ref('finance_days')}} 
-left join {{ref('int_campaigns_day')}} as icd
+join {{ref('int_campaigns_day')}} as icd
 using (date_date)
-order by date_date desc
+order by date_date asc
