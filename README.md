@@ -1,15 +1,2 @@
-Welcome to your new dbt project!
+https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExZWQ5aHlmNnVnM2FnaDJrMGpqMThhZXJzeHJqY2FoaWxpeHl5N2J6MiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/bpNMoPja9PwF1PAfLx/giphy.gif
 
-### Using the starter project
-
-Try running the following commands:
-- dbt run
-- dbt test
-
-
-### Resources:
-- Learn more about dbt [in the docs](https://docs.getdbt.com/docs/introduction)
-- Check out [Discourse](https://discourse.getdbt.com/) for commonly asked questions and answers
-- Join the [dbt community](https://getdbt.com/community) to learn from other analytics engineers
-- Find [dbt events](https://events.getdbt.com) near you
-- Check out [the blog](https://blog.getdbt.com/) for the latest news on dbt's development and best practices
